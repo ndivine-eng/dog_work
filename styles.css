@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  #dog{
+    width: 250px;
+    height: 300px;
+
+  }
+
+#btn{
+    width: 250px;
+    background-color: brown;
+    color: white;
+    border-style: none;
+    margin-top: 10px;
+    height: 40px;
+
+    
+}
+
+#btn.hover{
+    background-color: yellow;
+}
