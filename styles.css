@@ -25,3 +25,27 @@ body {
 #btn.hover{
     background-color: yellow;
 }
+@media screen and (max-width: 787px) {
+    #btn{
+        width: 250px;
+        height: 40px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #btn{
+        width: 320px;
+        height: 40px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #dog{
+        width: 320px;
+        height: 400px
+    }
+    
+}
+  
